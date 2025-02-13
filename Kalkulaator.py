@@ -19,8 +19,8 @@ class cal(): # teeb cal (kalkulaatori klassi)
         return self.a % self.b # leiab kasutaja poolt sisestatud a ja b jäägi ning kuvab tulemuse
     def ruutjuur(self):        # teeb funktsiooni ruutjuur
         return math.sqrt(self.a) # leiab kasutaja poolt sisestatud a arvust ruutjuure ning kuvab tulemuse
-    def astendamine(self):
-        return  self.a ** self.b
+    def astendamine(self):      # teeb astendamise funktsiooni
+        return  self.a ** self.b # astendab arvu a arvu b ga
 
 # Inputid
 a = int(input("Sisesta esimene number: "))          # küsib kasutaja käest arvu a
