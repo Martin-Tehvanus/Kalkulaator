@@ -1,4 +1,4 @@
-import math
+import math # impordib math mooduli
 
 
 class cal(): # teeb cal (kalkulaatori klassi)
